@@ -1,0 +1,81 @@
+a {
+  all: unset;
+}
+.post-excerpt,
+.post-excerpt-hover {
+  display: flex;
+  color: rgb(215, 218, 220);
+  background-color: rgb(36, 37, 38);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding-top: 8px;
+  min-width: 600px;
+  border: 1px solid transparent;
+}
+
+.post-excerpt-hover:hover {
+  border: 1px solid #818384;
+  cursor: pointer;
+}
+
+.post-excerpt__image {
+  max-height: 460px;
+  width: 100%;
+}
+
+.post-excerpt__content {
+  padding-left: 8px;
+}
+
+.post-excerpt__container {
+  padding: 5px 8px 10px;
+  overflow: hidden;
+}
+
+.post-excerpt__title {
+  font-size: 18px;
+  font-weight:600;
+  line-height: 22px;
+  word-wrap: break-word;
+  display: inline;
+  color: white;
+  padding-right: 5px;
+  word-wrap: break-word;
+}
+
+.post-excerpt__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.post-excerpt__description {
+  margin-top: 8px;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+.post-excerpt__overflow {
+  overflow-y: hidden;
+}
+
+.post__buttons {
+}
+
+.post-excerpt__divider {
+}
+
+@media (max-width: 640px) {
+  .post-excerpt, .post-excerpt-hover {
+    min-width: unset;
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+@media(max-width: 370px) {
+  .post-excerpt, .post-excerpt-hover {
+    overflow-x: scroll;
+  }
+}

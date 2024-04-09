@@ -1,0 +1,41 @@
+.post-excerpt__interactions {
+  display: flex;
+  padding-left: 4px;
+  padding-right: 8px;
+  color: #818384;
+}
+
+.post-excerpt__interaction {
+  padding: 8px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: var(--secondary-color);
+}
+
+.post-excerpt__interaction:hover {
+  /* background-color: rgba(215,218,220,0.1); */
+  background-color: rgb(100, 100, 100, 0.443);
+  outline: none;
+  padding: 8px;
+  word-break: normal;
+  margin-right: 4px;
+}
+
+.post-excerpt__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.post-excerpt__action {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+

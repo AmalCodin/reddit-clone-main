@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #474748;
+  border-radius: 8px;
+  overflow: visible;
+  word-wrap: break-word;
+  min-width: 312px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .card {
+    min-width: unset;
+    max-width: 94%;
+  }
+}

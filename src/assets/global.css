@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Noto Sans;
+  src: url(../assets/NotoSans-Regular.ttf);
+}
+:root {
+  --primary-color: rgb(36, 37, 38);
+  --secondary-color: #d7dadc;
+}
+* {
+  margin: 0;
+}
+
+body,html {
+  height: 100%;
+}
+#root {
+  height: 100%;
+  font-family: Noto Sans, Arial, sans-serif;
+}
